@@ -1,13 +1,23 @@
 body {
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+p {
     color: #faf5e4;
 }
 
-p, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f8b400;
+}
+
+p,
+a {
     font-size: 14px;
 }
 

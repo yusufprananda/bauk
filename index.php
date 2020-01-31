@@ -113,6 +113,26 @@
                     <p>Jl. Diponegoro no 186 Gedanganak - Ungaran Timur, Kab. Semarang Jawa Tengah</p>
                     <p>Telp: (024)-6925408<br>Fax: (024)-6925408</p>
                 </div>
+                <div class="col-md-3 p-4">
+                    <h4>Links</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Universitas Ngudi Waluyo</a>
+                        </li>
+                        <li>
+                            <a href="#">F. Kesehatan</a>
+                        </li>
+                        <li>
+                            <a href="#">F. Keperawatan</a>
+                        </li>
+                        <li>
+                            <a href="#">F. Hukum dan Humaniora</a>
+                        </li>
+                        <li>
+                            <a href="#">F. Pendidikan dan Teknologi Informasi</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
