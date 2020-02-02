@@ -36,7 +36,7 @@ a:hover {
     padding: 0px 100px;
 }
 
-.cHeader h1 {
+.cHeader h2 {
     color: #faf5e4;
     font-family: 'Noto Serif',
         serif;
@@ -81,5 +81,13 @@ a:hover {
 @media (max-width: 576px) {
     .cNavbar {
         padding: 10px 30px;
+    }
+    .cHeader {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .cHeader h2 {
+        font-size: 25px;
     }
 }
