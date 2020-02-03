@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Beranda</span></a>
+                <a class="nav-link" href="#" <?= $page == 'home' ? 'active' : '' ?>>Beranda</span></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -19,22 +19,22 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Aset</a>
+                <a class="nav-link" href="#" <?= $page == 'aset' ? 'active' : '' ?>>Aset</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pengadaan Barang</a>
+                <a class="nav-link" href="#" <?= $page == 'pBarang' ? 'active' : '' ?>>Pengadaan Barang</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Jadwal Gedung</a>
+                <a class="nav-link" href="#" <?= $page == 'jGedung' ? 'active' : '' ?>>Jadwal Gedung</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Transportasi</a>
+                <a class="nav-link" href="#" <?= $page == 'transportasi' ? 'active' : '' ?>>Transportasi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Renovasi</a>
+                <a class="nav-link" href="#" <?= $page == 'renovasi' ? 'active' : '' ?>>Renovasi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Peminjaman Alat</a>
+                <a class="nav-link" href="#" <?= $page == 'pAlat' ? 'active' : '' ?>>Peminjaman Alat</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

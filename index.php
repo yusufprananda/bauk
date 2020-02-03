@@ -1,4 +1,5 @@
 <?php include "functions/head.php" ?>
+<?php $page = "home" ?>
 
 <body>
     <?php include "functions/header.php" ?>
