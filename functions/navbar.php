@@ -6,35 +6,35 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#" <?= $page == 'home' ? 'active' : '' ?>>Beranda</span></a>
+            <li class="nav-item <?= $page == 'home' ? 'active' : '' ?>">
+                <a class="nav-link" href="index.php">Beranda</span></a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown <?= $page == 'about' ? 'active' : '' ?>">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Tentang
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Struktur Organisasi</a>
-                    <a class="dropdown-item" href="#">Profil Staff</a>
+                    <a class="dropdown-item" href="struktur_organisasi.php">Struktur Organisasi</a>
+                    <a class="dropdown-item" href="profil_staff.php">Profil Staff</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'aset' ? 'active' : '' ?>>Aset</a>
+            <li class="nav-item <?= $page == 'aset' ? 'active' : '' ?>">
+                <a class="nav-link" href="sarpras">Aset</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'pBarang' ? 'active' : '' ?>>Pengadaan Barang</a>
+            <li class="nav-item <?= $page == 'pBarang' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Pengadaan Barang</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'jGedung' ? 'active' : '' ?>>Jadwal Gedung</a>
+            <li class="nav-item <?= $page == 'jGedung' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Jadwal Gedung</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'transportasi' ? 'active' : '' ?>>Transportasi</a>
+            <li class="nav-item <?= $page == 'transportasi' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Transportasi</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'renovasi' ? 'active' : '' ?>>Renovasi</a>
+            <li class="nav-item <?= $page == 'renovasi' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Renovasi</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" <?= $page == 'pAlat' ? 'active' : '' ?>>Peminjaman Alat</a>
+            <li class="nav-item <?= $page == 'pAlat' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Peminjaman Alat</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

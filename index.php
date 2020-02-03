@@ -1,5 +1,5 @@
-<?php include "functions/head.php" ?>
 <?php $page = "home" ?>
+<?php include "functions/head.php" ?>
 
 <body>
     <?php include "functions/header.php" ?>

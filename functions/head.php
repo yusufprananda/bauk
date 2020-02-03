@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Title -->
-    <title>Badan Administrasi Umum</title>
+    <title><?= $page ?> - Badan Administrasi Umum</title>
 
     <!-- Link Style -->
     <!-- Bootstrap 4 -->
