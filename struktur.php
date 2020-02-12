@@ -1,4 +1,4 @@
-<?php $page = "about" ?>
+<?php $page = "About" ?>
 <?php include "functions/head.php" ?>
 
 <body>

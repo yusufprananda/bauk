@@ -9,32 +9,33 @@
             <li class="nav-item <?= $page == 'home' ? 'active' : '' ?>">
                 <a class="nav-link" href="index.php">Beranda</span></a>
             </li>
-            <li class="nav-item dropdown <?= $page == 'about' ? 'active' : '' ?>">
+            <li class="nav-item dropdown <?= $page == 'profile' ? 'active' : '' ?>">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tentang
+                    Profil
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="struktur_organisasi.php">Struktur Organisasi</a>
-                    <a class="dropdown-item" href="profil_staff.php">Profil Staff</a>
-                </div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="struktur.php">Struktur</a></li>
+                    <li><a class="dropdown-item" href="staff.php">Staff</a></li>
+                </ul>
             </li>
-            <li class="nav-item <?= $page == 'aset' ? 'active' : '' ?>">
-                <a class="nav-link" href="sarpras">Aset</a>
+            <li class="nav-item dropdown <?= $page == 'sarpras' ? 'active' : '' ?>">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sarana-Prasarana
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="../../sarpras/aset.php" class="dropdown-item">Aset</a></li>
+                    <li><a href="#" class="dropdown-item">Jadwal Pemakaian Ruang</a></li>
+                    <li><a href="#" class="dropdown-item">Jadwal Pemakaian Transportasi</a></li>
+                </ul>
             </li>
-            <li class="nav-item <?= $page == 'pBarang' ? 'active' : '' ?>">
-                <a class="nav-link" href="#">Pengadaan Barang</a>
+            <li class="nav-item <?= $page == 'kepegawaian' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Kepegawaian</a>
             </li>
-            <li class="nav-item <?= $page == 'jGedung' ? 'active' : '' ?>">
-                <a class="nav-link" href="#">Jadwal Gedung</a>
+            <li class="nav-item <?= $page == 'persuratan' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Persuratan</a>
             </li>
-            <li class="nav-item <?= $page == 'transportasi' ? 'active' : '' ?>">
-                <a class="nav-link" href="#">Transportasi</a>
-            </li>
-            <li class="nav-item <?= $page == 'renovasi' ? 'active' : '' ?>">
-                <a class="nav-link" href="#">Renovasi</a>
-            </li>
-            <li class="nav-item <?= $page == 'pAlat' ? 'active' : '' ?>">
-                <a class="nav-link" href="#">Peminjaman Alat</a>
+            <li class="nav-item <?= $page == 'humas' ? 'active' : '' ?>">
+                <a class="nav-link" href="#">Humas</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

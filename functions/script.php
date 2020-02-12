@@ -5,6 +5,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Font Awesome -->
     <script src="js/all.min.js"></script>
+    <!-- Navbar Bootstrap 4 -->
+    <script src="js/bootstrap-4-navbar.min.js"></script>
     <!-- My Script -->
     <script>
 

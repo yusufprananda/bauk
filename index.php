@@ -1,7 +1,8 @@
-<?php $page = "home" ?>
+<?php $page = "Home" ?>
 <?php include "functions/head.php" ?>
 
 <body>
+    <?php include "functions/marquee.php" ?>
     <?php include "functions/header.php" ?>
     <?php include "functions/navbar.php" ?>
 

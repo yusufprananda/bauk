@@ -11,6 +11,8 @@
     <!-- Link Style -->
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Navbar Bootstrap 4 -->
+    <link rel="stylesheet" href="css/bootstrap-4-navbar.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- My Style -->

@@ -52,6 +52,10 @@ a:hover {
     padding: 10px 100px;
 }
 
+.cMarquee {
+    background-color: #2c786c;
+}
+
 .btn-info {
     background-color: #004445;
     border-color: #004445;
