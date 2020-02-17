@@ -19,7 +19,7 @@
                     <div class="card mb-3">
                         <img class="card-img-top" src="http://placehold.jp/100x100.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="#">
+                            <a href="news.php">
                                 <h5 class="card-title">Card title</h5>
                             </a>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -33,7 +33,7 @@
                     <div class="card mb-3">
                         <img class="card-img-top" src="http://placehold.jp/560x180.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="#">
+                            <a href="news.php">
                                 <h5 class="card-title">Card title</h5>
                             </a>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -47,7 +47,7 @@
                     <div class="card mb-3">
                         <img class="card-img-top" src="http://placehold.jp/560x180.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="#">
+                            <a href="news.php">
                                 <h5 class="card-title">Card title</h5>
                             </a>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

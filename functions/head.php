@@ -21,4 +21,6 @@
     <!-- Link Font -->
     <!-- Noto Serif and Roboto Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
 </head>

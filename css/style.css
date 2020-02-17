@@ -82,16 +82,50 @@ a:hover {
     background-color: #2c786c;
 }
 
+.cContdet h1 {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-weight: 600;
+}
+
+.cContdet img {
+    width: 730px;
+    text-align: center;
+}
+
+.cContdet p {
+    font-family: 'Open Sans',
+        sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.cContdet .cContdet-info {
+    font-size: 14px;
+}
+
+.cContdet-info {
+    font-size: 12px;
+}
+
 @media (max-width: 576px) {
     .cNavbar {
         padding: 10px 30px;
     }
+
     .cHeader {
         padding-left: 10px;
         padding-right: 10px;
 
     }
+
     .cHeader h2 {
         font-size: 25px;
+    }
+
+    .cContdet img {
+        width: 455px;
     }
 }
